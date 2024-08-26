@@ -1,0 +1,69 @@
+import React, { useState } from 'react'
+import { ImSpoonKnife } from "react-icons/im";
+import { FiSearch } from "react-icons/fi";
+import { BsBagCheck } from "react-icons/bs";
+import { FaHamburger } from "react-icons/fa";
+import { IoCloseCircle } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FcGoogle } from "react-icons/fc";
+import { TfiEmail } from "react-icons/tfi";
+function Navbar() {
+    const [isActive, setisActive] = useState("home");
+    const [toggle, setToggle] = useState(false);
+    return (
+        <>
+            <div className='z-10 bg-gray-600 px-2  fixed w-full   sm:px-4 text-white top-0 shadow-sm right-0 left-0 flex items-center justify-between'>
+                {/* logo */}
+                <div>
+                    <h1 style={{ fontFamily: "Montserrat" }} className='flex  items-center justify-center'><span className='text-green-500 font-bold text-3xl '>Food</span><span className='underline font-bold italic mx-1 '>store</span><span><ImSpoonKnife className='text-green-500' /></span></h1>
+                </div>
+
+                {/* menu  */}
+                <ul className='sm:flex hidden sm:space-x-4 items-center justify-center '>
+                    <li onClick={() => setisActive("home")} className={`${isActive == "home" ? 'border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500 `}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Home</button></li>
+                    <li onClick={() => setisActive("menu")} className={`${isActive == "menu" ? ' border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Menu</button></li>
+                    <li onClick={() => setisActive("contacts")} className={`${isActive == "contacts" ? '  border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Contact us</button></li>
+                </ul>
+                {/* icon */}
+                <div className='flex items-center justify-center space-x-2 '>
+                    <FiSearch className='cursor-pointer text-xl ' />
+
+                    <BsBagCheck className='cursor-pointer text-xl ' />
+
+
+                    {/* sign up button  */}
+                    <div>
+                        <button className=' text-sm  hover:scale-105 hover:border-gray-600 border text-blue-500 px-2 py-0.5 rounded-lg'> Sign up</button>
+                    </div>
+                    {
+                        !toggle ? <FaHamburger onClick={() => { setToggle(!toggle) }} className='sm:hidden block' />
+                            : <IoCloseCircle onClick={() => { setToggle(!toggle) }} className='sm:hidden block' />
+                    }
+                </div>
+
+            </div>
+            {/* mobile menu */}
+
+            <div className={`px-3 py-3 z-10 absolute  top-9 w-full  h-[100vh]  shadow-lg sm:hidden ${toggle ? 'flex' : "hidden"} flex-col items-center backdrop-blur-lg`}>
+
+                <ul className=' space-y-4 flex flex-col items-center '>
+                    <li className='border-green-500 border-b-2 w-[95vw]   text-center '>Home</li>
+                    <li className='border-green-500 border-b-2 w-full text-center  '>Menu </li>
+                    <li className='border-green-500 border-b-2 w-full text-center mb-2  '>Contact us</li>
+                </ul>
+
+                <div className='space-x-3 mt-3 flex  items-center justify-center '>
+                    <FaFacebook className='shadow-xl  ' size={20} />
+                    <FaSquareInstagram size={20} />
+                    <FcGoogle size={20} />
+                    <TfiEmail size={20} />
+                </div>
+
+
+            </div>
+        </>
+    )
+}
+
+export default Navbar
