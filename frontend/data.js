@@ -4,70 +4,80 @@ export const pizzas = [
         "image_url": "https://example.com/margherita.jpg",
         "price": 8.99,
         "rating": 4.5,
-        "description": "A classic Italian pizza with fresh tomatoes, mozzarella cheese, and basil leaves."
+        "description": "A classic Italian pizza with fresh tomatoes, mozzarella cheese, and basil leaves.",
+        "category":"pizza"
     },
     {
         "name": "Pepperoni",
         "image_url": "https://example.com/pepperoni.jpg",
         "price": 10.99,
         "rating": 4.7,
-        "description": "A popular pizza topped with spicy pepperoni slices and mozzarella cheese."
+        "description": "A popular pizza topped with spicy pepperoni slices and mozzarella cheese.",
+        "category": "pizza"
     },
     {
         "name": "BBQ Chicken",
         "image_url": "https://example.com/bbq_chicken.jpg",
         "price": 12.99,
         "rating": 4.6,
-        "description": "A delicious pizza topped with barbecue sauce, grilled chicken, red onions, and mozzarella cheese."
+        "description": "A delicious pizza topped with barbecue sauce, grilled chicken, red onions, and mozzarella cheese.",
+        "category": "pizza"
     },
     {
         "name": "Vegetarian",
         "image_url": "https://example.com/vegetarian.jpg",
         "price": 11.49,
         "rating": 4.4,
-        "description": "A healthy pizza loaded with fresh vegetables like bell peppers, onions, olives, and mushrooms."
+        "description": "A healthy pizza loaded with fresh vegetables like bell peppers, onions, olives, and mushrooms.",
+        "category": "pizza"
     },
     {
         "name": "Hawaiian",
         "image_url": "https://example.com/hawaiian.jpg",
         "price": 11.99,
         "rating": 4.3,
-        "description": "A tropical pizza topped with ham, pineapple chunks, and mozzarella cheese."
+        "description": "A tropical pizza topped with ham, pineapple chunks, and mozzarella cheese.",
+        "category": "pizza"
     },
     {
         "name": "Four Cheese",
         "image_url": "https://example.com/four_cheese.jpg",
         "price": 13.49,
         "rating": 4.8,
-        "description": "A rich and creamy pizza topped with a blend of mozzarella, cheddar, parmesan, and gorgonzola cheeses."
+        "description": "A rich and creamy pizza topped with a blend of mozzarella, cheddar, parmesan, and gorgonzola cheeses.",
+        "category": "pizza"
     },
     {
         "name": "Meat Lovers",
         "image_url": "https://example.com/meat_lovers.jpg",
         "price": 14.99,
         "rating": 4.9,
-        "description": "A hearty pizza loaded with various meats like pepperoni, sausage, bacon, and ham."
+        "description": "A hearty pizza loaded with various meats like pepperoni, sausage, bacon, and ham.",
+        "category": "pizza"
     },
     {
         "name": "Mushroom and Truffle",
         "image_url": "https://example.com/mushroom_truffle.jpg",
         "price": 15.99,
         "rating": 4.7,
-        "description": "A gourmet pizza with a blend of mushrooms, truffle oil, and mozzarella cheese."
+        "description": "A gourmet pizza with a blend of mushrooms, truffle oil, and mozzarella cheese.",
+        "category": "pizza"
     },
     {
         "name": "Buffalo Chicken",
         "image_url": "https://example.com/buffalo_chicken.jpg",
         "price": 13.99,
         "rating": 4.6,
-        "description": "A spicy pizza topped with buffalo chicken, red onions, and blue cheese crumbles."
+        "description": "A spicy pizza topped with buffalo chicken, red onions, and blue cheese crumbles.",
+        "category": "pizza"
     },
     {
         "name": "Spinach and Feta",
         "image_url": "https://example.com/spinach_feta.jpg",
         "price": 12.49,
         "rating": 4.5,
-        "description": "A flavorful pizza with fresh spinach, feta cheese, tomatoes, and garlic."
+        "description": "A flavorful pizza with fresh spinach, feta cheese, tomatoes, and garlic.",
+        "category": "pizza"
     }
 ]
 export const soops = [

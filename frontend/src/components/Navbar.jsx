@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import { ImSpoonKnife } from "react-icons/im";
 import { FiSearch } from "react-icons/fi";
 import { BsBagCheck } from "react-icons/bs";
@@ -29,12 +30,12 @@ function Navbar() {
                 <div className='flex items-center justify-center space-x-2 '>
                     <FiSearch className='cursor-pointer text-xl ' />
 
-                    <BsBagCheck className='cursor-pointer text-xl ' />
+                    <Link to='/cart'><BsBagCheck className='cursor-pointer text-xl ' /></Link>  
 
 
                     {/* sign up button  */}
                     <div>
-                        <button className=' text-sm  hover:scale-105 hover:border-gray-600 border text-blue-500 px-2 py-0.5 rounded-lg'> Sign up</button>
+                        <Link to='signuppage'><button className=' text-sm  hover:scale-105 hover:border-gray-600 border text-blue-500 px-2 py-0.5 rounded-lg'> Sign up</button></Link>     
                     </div>
                     {
                         !toggle ? <FaHamburger onClick={() => { setToggle(!toggle) }} className='sm:hidden block' />

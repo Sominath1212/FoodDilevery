@@ -1,7 +1,7 @@
 import React from 'react'
 import { ImSpoonKnife } from 'react-icons/im'
-import playStore from '../assets/play_store.png'
-import AppleStore from '../assets/app_store.png'
+import playStore from '../assets/images/play_store.png'
+import AppleStore from '../assets/images/app_store.png'
 import { FaFacebook } from 'react-icons/fa'
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { FcGoogle } from 'react-icons/fc'
@@ -28,8 +28,9 @@ function Footer() {
                 <TfiEmail size={20} className='text-white' />
             </div>
             <div className='my-3'>
+          <hr />
                 <p className='text-gray-400 text-[5px] sm:text-[10px] text-center font-extralight  '>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © FoodStore™ Ltd. All rights reserved.</p>
-            </div>
+           </div>
         </div>
     )
 }

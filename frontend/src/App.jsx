@@ -1,15 +1,12 @@
 
-
-
-import toast, { Toaster } from 'react-hot-toast';
 import LandingPage from './components/LandingPage';
 import LoginPage from './components/LoginPage';
 import SignUpPage from './components/SignUpPage';
-import Cart from './components/Cart';
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout';
-import Menu from './components/Menu';
-import Contact from './components/Contact';
+import Cart from './components/Cart';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -31,14 +28,9 @@ const router = createBrowserRouter([
         path: '/cart',
         element: <Cart />
       },
-      {
-        path: '/menu',
-        element: <Menu />
-      },
-      {
-        path: '/contact',
-        element: <Contact />
-      }
+     
+     
+       
     ]
   }])
 
@@ -46,7 +38,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
-      <Toaster />
+     
     </div>
   )
 }
