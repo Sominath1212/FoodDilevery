@@ -16,26 +16,26 @@ function Navbar() {
         <>
             <div className='z-10 bg-gray-600 px-2  fixed w-full   sm:px-4 text-white top-0 shadow-sm right-0 left-0 flex items-center justify-between'>
                 {/* logo */}
-                <div>
+                <Link to='/'> <div>
                     <h1 style={{ fontFamily: "Montserrat" }} className='flex  items-center justify-center'><span className='text-green-500 font-bold text-3xl '>Food</span><span className='underline font-bold italic mx-1 '>store</span><span><ImSpoonKnife className='text-green-500' /></span></h1>
-                </div>
+                </div></Link>
 
                 {/* menu  */}
                 <ul className='sm:flex hidden sm:space-x-4 items-center justify-center '>
-                    <li onClick={() => setisActive("home")} className={`${isActive == "home" ? 'border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500 `}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Home</button></li>
-                    <li onClick={() => setisActive("menu")} className={`${isActive == "menu" ? ' border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Menu</button></li>
+                    <Link to='/'>    <li onClick={() => setisActive("home")} className={`${isActive == "home" ? 'border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500 `}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Home</button></li></Link>
+                    <Link to='ExporeMenu'> <li onClick={() => setisActive("menu")} className={`${isActive == "menu" ? ' border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Menu</button></li></Link>
                     <li onClick={() => setisActive("contacts")} className={`${isActive == "contacts" ? '  border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Contact us</button></li>
                 </ul>
                 {/* icon */}
                 <div className='flex items-center justify-center space-x-2 '>
                     <FiSearch className='cursor-pointer text-xl ' />
 
-                    <Link to='/cart'><BsBagCheck className='cursor-pointer text-xl ' /></Link>  
+                    <Link to='/cart'><BsBagCheck className='cursor-pointer text-xl ' /></Link>
 
 
                     {/* sign up button  */}
                     <div>
-                        <Link to='signuppage'><button className=' text-sm  hover:scale-105 hover:border-gray-600 border text-blue-500 px-2 py-0.5 rounded-lg'> Sign up</button></Link>     
+                        <Link to='signuppage'><button className=' text-sm  hover:scale-105 hover:border-gray-600 border text-blue-500 px-2 py-0.5 rounded-lg'> Sign up</button></Link>
                     </div>
                     {
                         !toggle ? <FaHamburger onClick={() => { setToggle(!toggle) }} className='sm:hidden block' />

@@ -5,7 +5,7 @@ export const pizzas = [
         "price": 8.99,
         "rating": 4.5,
         "description": "A classic Italian pizza with fresh tomatoes, mozzarella cheese, and basil leaves.",
-        "category":"pizza"
+        "category": "pizza"
     },
     {
         "name": "Pepperoni",
@@ -233,6 +233,7 @@ export const rices = [
         "price": "$500",
         "rating": 4.8,
         "description": "Experience the thrill of the Formula 1 Grand Prix, featuring the fastest cars and top drivers from around the world."
+
     },
     {
         "name": "Le Mans 24 Hours",
@@ -501,13 +502,7 @@ export const streetFood = [
         "rating": "4.3",
         "description": "Puffed rice mixed with vegetables, chutneys, and spices."
     },
-    {
-        "name": "Aloo Tikki",
-        "image": "https://example.com/aloo_tikki.jpg",
-        "price": "₹30",
-        "rating": "4.4",
-        "description": "Spiced potato patties served with chutneys."
-    },
+
     {
         "name": "Kachori",
         "image": "https://example.com/kachori.jpg",
@@ -516,53 +511,11 @@ export const streetFood = [
         "description": "Spicy and crispy pastry stuffed with lentils or peas."
     },
     {
-        "name": "Pakora",
+        "name": "Pakoda",
         "image": "https://example.com/pakora.jpg",
         "price": "₹50",
         "rating": "4.2",
         "description": "Vegetables or meat dipped in gram flour batter and deep-fried."
-    },
-    {
-        "name": "Idli Sambhar",
-        "image": "https://example.com/idli_sambhar.jpg",
-        "price": "₹50",
-        "rating": "4.4",
-        "description": "Steamed rice cakes served with a spicy lentil soup."
-    },
-    {
-        "name": "Dosa",
-        "image": "https://example.com/dosa.jpg",
-        "price": "₹60",
-        "rating": "4.5",
-        "description": "Crispy rice crepe served with chutneys and sambar."
-    },
-    {
-        "name": "Chole Bhature",
-        "image": "https://example.com/chole_bhature.jpg",
-        "price": "₹70",
-        "rating": "4.6",
-        "description": "Spicy chickpea curry served with deep-fried bread."
-    },
-    {
-        "name": "Pesarattu",
-        "image": "https://example.com/pesarattu.jpg",
-        "price": "₹55",
-        "rating": "4.4",
-        "description": "Green gram crepe served with chutneys and sambar."
-    },
-    {
-        "name": "Rajma Chawal",
-        "image": "https://example.com/rajma_chawal.jpg",
-        "price": "₹60",
-        "rating": "4.3",
-        "description": "Spicy kidney bean curry served with rice."
-    },
-    {
-        "name": "Khakra",
-        "image": "https://example.com/khakra.jpg",
-        "price": "₹40",
-        "rating": "4.2",
-        "description": "Crispy, thin wheat crackers seasoned with spices."
     },
     {
         "name": "Chana Chaat",
@@ -571,160 +524,7 @@ export const streetFood = [
         "rating": "4.3",
         "description": "Spicy chickpea salad with onions, tomatoes, and chutneys."
     },
-    {
-        "name": "Tikki Chaat",
-        "image": "https://example.com/tikki_chaat.jpg",
-        "price": "₹50",
-        "rating": "4.4",
-        "description": "Potato patties topped with yogurt, chutneys, and spices."
-    },
-    {
-        "name": "Pulao",
-        "image": "https://example.com/pulao.jpg",
-        "price": "₹55",
-        "rating": "4.3",
-        "description": "Spiced rice dish cooked with vegetables."
-    },
-    {
-        "name": "Momos",
-        "image": "https://example.com/momos.jpg",
-        "price": "₹60",
-        "rating": "4.5",
-        "description": "Steamed or fried dumplings filled with vegetables or meat."
-    },
-    {
-        "name": "Hakka Noodles",
-        "image": "https://example.com/hakka_noodles.jpg",
-        "price": "₹70",
-        "rating": "4.4",
-        "description": "Stir-fried noodles with vegetables and soy sauce."
-    },
-    {
-        "name": "Prawn Koliwada",
-        "image": "https://example.com/prawn_koliwada.jpg",
-        "price": "₹80",
-        "rating": "4.6",
-        "description": "Deep-fried prawns coated in a spicy batter."
-    },
-    {
-        "name": "Egg Roll",
-        "image": "https://example.com/egg_roll.jpg",
-        "price": "₹50",
-        "rating": "4.4",
-        "description": "Egg wrapped in a paratha with onions, chutneys, and spices."
-    },
-    {
-        "name": "Pesarattu",
-        "image": "https://example.com/pesarattu.jpg",
-        "price": "₹55",
-        "rating": "4.4",
-        "description": "Green gram dosa served with chutneys and sambar."
-    },
-    {
-        "name": "Sev Puri",
-        "image": "https://example.com/sev_puri.jpg",
-        "price": "₹40",
-        "rating": "4.3",
-        "description": "Crispy puris topped with a mix of chutneys, onions, and sev."
-    },
-    {
-        "name": "Masala Papad",
-        "image": "https://example.com/masala_papad.jpg",
-        "price": "₹30",
-        "rating": "4.2",
-        "description": "Crispy papad topped with a spicy onion-tomato mixture."
-    },
-    {
-        "name": "Paneer Tikka",
-        "image": "https://example.com/paneer_tikka.jpg",
-        "price": "₹80",
-        "rating": "4.5",
-        "description": "Marinated paneer cubes grilled to perfection."
-    },
-    {
-        "name": "Biryani",
-        "image": "https://example.com/biryani.jpg",
-        "price": "₹90",
-        "rating": "4.6",
-        "description": "Spiced rice dish cooked with meat or vegetables."
-    },
-    {
-        "name": "Kulfi",
-        "image": "https://example.com/kulfi.jpg",
-        "price": "₹50",
-        "rating": "4.5",
-        "description": "Traditional Indian ice cream made from milk and flavored with cardamom."
-    },
-    {
-        "name": "Rabri",
-        "image": "https://example.com/rabri.jpg",
-        "price": "₹60",
-        "rating": "4.4",
-        "description": "Sweet, creamy dessert made from reduced milk and flavored with cardamom."
-    },
-    {
-        "name": "Aloo Chaat",
-        "image": "https://example.com/aloo_chaat.jpg",
-        "price": "₹45",
-        "rating": "4.3",
-        "description": "Spicy and tangy potato cubes served with chutneys."
-    },
-    {
-        "name": "Dhokla",
-        "image": "https://example.com/dhokla.jpg",
-        "price": "₹40",
-        "rating": "4.4",
-        "description": "Steamed savory cake made from fermented rice and chickpea batter."
-    },
-    {
-        "name": "Misal Pav",
-        "image": "https://example.com/misal_pav.jpg",
-        "price": "₹60",
-        "rating": "4.5",
-        "description": "Spicy lentil curry served with pav bread."
-    },
-    {
-        "name": "Nachos",
-        "image": "https://example.com/nachos.jpg",
-        "price": "₹70",
-        "rating": "4.3",
-        "description": "Crispy tortilla chips topped with melted cheese and toppings."
-    },
-    {
-        "name": "Bombay Sandwich",
-        "image": "https://example.com/bombay_sandwich.jpg",
-        "price": "₹50",
-        "rating": "4.4",
-        "description": "Multigrain bread sandwich filled with chutneys, vegetables, and spices."
-    },
-    {
-        "name": "Tandoori Chicken",
-        "image": "https://example.com/tandoori_chicken.jpg",
-        "price": "₹90",
-        "rating": "4.6",
-        "description": "Chicken marinated in spices and yogurt, then grilled in a tandoor."
-    },
-    {
-        "name": "Chole Tikki",
-        "image": "https://example.com/chole_tikki.jpg",
-        "price": "₹55",
-        "rating": "4.4",
-        "description": "Spiced potato patties served with chickpea curry."
-    },
-    {
-        "name": "Pakoda",
-        "image": "https://example.com/pakoda.jpg",
-        "price": "₹50",
-        "rating": "4.3",
-        "description": "Various vegetables or meats coated in gram flour batter and deep-fried."
-    },
-    {
-        "name": "Vegetable Spring Roll",
-        "image": "https://example.com/vegetable_spring_roll.jpg",
-        "price": "₹60",
-        "rating": "4.4",
-        "description": "Crispy rolls stuffed with mixed vegetables and served with a dipping sauce."
-    }
+
 ]
 
 export const rottis = [
@@ -734,6 +534,7 @@ export const rottis = [
         "price": "₹50",
         "rating": "4.5",
         "description": "A popular North Indian stuffed bread made with spiced mashed potatoes."
+    
     },
     {
         "name": "Chappati",
@@ -741,27 +542,6 @@ export const rottis = [
         "price": "₹30",
         "rating": "4.0",
         "description": "A simple and unleavened flatbread, staple in Indian cuisine."
-    },
-    {
-        "name": "Butter Naan",
-        "image": "https://example.com/butter-naan.jpg",
-        "price": "₹60",
-        "rating": "4.7",
-        "description": "Soft and fluffy naan bread brushed with butter, commonly served with curries."
-    },
-    {
-        "name": "Garlic Naan",
-        "image": "https://example.com/garlic-naan.jpg",
-        "price": "₹65",
-        "rating": "4.6",
-        "description": "Naan bread topped with garlic and herbs for an aromatic flavor."
-    },
-    {
-        "name": "Roti",
-        "image": "https://example.com/roti.jpg",
-        "price": "₹25",
-        "rating": "4.2",
-        "description": "A traditional whole wheat flatbread, simple and versatile."
     },
     {
         "name": "Puri",
@@ -785,88 +565,11 @@ export const rottis = [
         "description": "Cornmeal roti from Punjab, typically served with saag (mustard greens)."
     },
     {
-        "name": "Khakra",
-        "image": "https://example.com/khakra.jpg",
-        "price": "₹70",
-        "rating": "4.1",
-        "description": "Thin, crispy roti, often enjoyed as a snack or with pickles."
-    },
-    {
-        "name": "Paneer Paratha",
-        "image": "https://example.com/paneer-paratha.jpg",
-        "price": "₹65",
-        "rating": "4.6",
-        "description": "Stuffed paratha with paneer (Indian cottage cheese) and spices."
-    },
-    {
-        "name": "Lachha Paratha",
-        "image": "https://example.com/lachha-paratha.jpg",
-        "price": "₹60",
-        "rating": "4.4",
-        "description": "Layered and flaky paratha, often enjoyed with curry or yogurt."
-    },
-    {
         "name": "Tandoori Roti",
         "image": "https://example.com/tandoori-roti.jpg",
         "price": "₹55",
         "rating": "4.5",
         "description": "Whole wheat roti cooked in a tandoor (clay oven) for a unique taste and texture."
-    },
-    {
-        "name": "Aloo Methi Paratha",
-        "image": "https://example.com/aloo-methi-paratha.jpg",
-        "price": "₹60",
-        "rating": "4.6",
-        "description": "Paratha stuffed with a mix of spiced potatoes and fenugreek leaves."
-    },
-    {
-        "name": "Methi Thepla",
-        "image": "https://example.com/methi-thepla.jpg",
-        "price": "₹55",
-        "rating": "4.3",
-        "description": "Gujarati spiced flatbread made with fenugreek leaves and whole wheat flour."
-    },
-    {
-        "name": "Rawa Paratha",
-        "image": "https://example.com/rawa-paratha.jpg",
-        "price": "₹60",
-        "rating": "4.4",
-        "description": "Paratha made from semolina, giving it a unique texture."
-    },
-    {
-        "name": "Pesarattu",
-        "image": "https://example.com/pesarattu.jpg",
-        "price": "₹65",
-        "rating": "4.5",
-        "description": "Green gram (moong dal) pancake, popular in Andhra Pradesh."
-    },
-    {
-        "name": "Kachori",
-        "image": "https://example.com/kachori.jpg",
-        "price": "₹50",
-        "rating": "4.2",
-        "description": "Spicy, stuffed deep-fried bread often enjoyed with chutney."
-    },
-    {
-        "name": "Rawa Dosa",
-        "image": "https://example.com/rawa-dosa.jpg",
-        "price": "₹70",
-        "rating": "4.4",
-        "description": "Crispy and thin dosa made from semolina, often served with sambar and chutney."
-    },
-    {
-        "name": "Aloo Gobi Paratha",
-        "image": "https://example.com/aloo-gobi-paratha.jpg",
-        "price": "₹65",
-        "rating": "4.6",
-        "description": "Stuffed paratha with a mix of spiced potatoes and cauliflower."
-    },
-    {
-        "name": "Ragi Roti",
-        "image": "https://example.com/ragi-roti.jpg",
-        "price": "₹60",
-        "rating": "4.3",
-        "description": "Roti made from finger millet flour, popular in South India."
     },
     {
         "name": "Jowar Roti",
@@ -875,41 +578,7 @@ export const rottis = [
         "rating": "4.4",
         "description": "Roti made from sorghum flour, commonly eaten in Maharashtra."
     },
-    {
-        "name": "Cheese Naan",
-        "image": "https://example.com/cheese-naan.jpg",
-        "price": "₹70",
-        "rating": "4.7",
-        "description": "Naan bread stuffed with cheese, ideal for pairing with rich curries."
-    },
-    {
-        "name": "Onion Paratha",
-        "image": "https://example.com/onion-paratha.jpg",
-        "price": "₹60",
-        "rating": "4.5",
-        "description": "Paratha filled with spiced onions and herbs."
-    },
-    {
-        "name": "Mooli Paratha",
-        "image": "https://example.com/mooli-paratha.jpg",
-        "price": "₹55",
-        "rating": "4.3",
-        "description": "Paratha stuffed with grated radish and spices."
-    },
-    {
-        "name": "Soya Chunks Paratha",
-        "image": "https://example.com/soya-chunks-paratha.jpg",
-        "price": "₹65",
-        "rating": "4.4",
-        "description": "Paratha filled with a spiced mixture of soya chunks."
-    },
-    {
-        "name": "Tandoori Roti",
-        "image": "https://example.com/tandoori-roti.jpg",
-        "price": "₹55",
-        "rating": "4.5",
-        "description": "Whole wheat roti cooked in a tandoor, resulting in a crispy texture."
-    },
+    
     {
         "name": "Bhakri",
         "image": "https://example.com/bhakri.jpg",
@@ -918,75 +587,12 @@ export const rottis = [
         "description": "A round flatbread made from various grains, typically enjoyed with spicy sides."
     },
     {
-        "name": "Kalari Roti",
-        "image": "https://example.com/kalari-roti.jpg",
-        "price": "₹70",
-        "rating": "4.6",
-        "description": "A specialty roti from Jammu and Kashmir, often made with a mix of flours."
-    },
-    {
         "name": "Bhature",
         "image": "https://example.com/bhature.jpg",
         "price": "₹65",
         "rating": "4.5",
         "description": "Leavened bread deep-fried to a puffed and golden perfection."
     },
-    {
-        "name": "Sattu Paratha",
-        "image": "https://example.com/sattu-paratha.jpg",
-        "price": "₹60",
-        "rating": "4.4",
-        "description": "Paratha stuffed with roasted gram flour and spices."
-    },
-    {
-        "name": "Pesarattu",
-        "image": "https://example.com/pesarattu.jpg",
-        "price": "₹65",
-        "rating": "4.6",
-        "description": "Green gram (moong dal) pancake, popular in Andhra Pradesh."
-    },
-    {
-        "name": "Khamir Roti",
-        "image": "https://example.com/khamir-roti.jpg",
-        "price": "₹55",
-        "rating": "4.3",
-        "description": "Yeast-leavened bread commonly enjoyed in Rajasthan."
-    },
-    {
-        "name": "Khasta Roti",
-        "image": "https://example.com/khasta-roti.jpg",
-        "price": "₹50",
-        "rating": "4.2",
-        "description": "Crispy and flaky roti, perfect for pairing with heavy gravies."
-    },
-    {
-        "name": "Chole Bhature",
-        "image": "https://example.com/chole-bhature.jpg",
-        "price": "₹70",
-        "rating": "4.7",
-        "description": "Fluffy bhature paired with spicy chickpea curry."
-    },
-    {
-        "name": "Kachori",
-        "image": "https://example.com/kachori.jpg",
-        "price": "₹50",
-        "rating": "4.2",
-        "description": "Spicy stuffed bread deep-fried until crispy."
-    },
-    {
-        "name": "Ragi Roti",
-        "image": "https://example.com/ragi-roti.jpg",
-        "price": "₹60",
-        "rating": "4.3",
-        "description": "Roti made from finger millet flour, popular in Karnataka."
-    },
-    {
-        "name": "Chappati",
-        "image": "https://example.com/chappati.jpg",
-        "price": "₹30",
-        "rating": "4.0",
-        "description": "Simple whole wheat flatbread."
-    }
 ]
 
 export const driks = [

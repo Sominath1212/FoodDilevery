@@ -3,8 +3,7 @@ import { IoMailOpenSharp } from "react-icons/io5";
 import { FaRegEyeSlash } from "react-icons/fa6";
 function LoginPage() {
     return (
-        <div className='sm:mx-56  relative top-14   h-[35vh] rounded-lg border    flex flex-col items-center  justify-center
-  bg-white/80 w-72 sm:w-80' >
+        <div className='relative bg-white/40 sm:mx-56  h-[90vh]  top-10 left-0 right-0 rounded-lg border space-y-3   mx-1 flex flex-col items-center  justify-center backdrop-blur-lg  white/90' >
 
             <h1 className='text-2xl sm:text-3x l font-bold '>Login </h1>
 

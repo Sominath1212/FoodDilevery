@@ -6,6 +6,8 @@ import SignUpPage from './components/SignUpPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout';
 import Cart from './components/Cart';
+import ExporeMenu from './components/ExporeMenu';
+import StoreContextProvider from './context/StoreContex';
 
 const router = createBrowserRouter([
   {
@@ -28,18 +30,23 @@ const router = createBrowserRouter([
         path: '/cart',
         element: <Cart />
       },
-     
-     
-       
+      {
+        path: '/ExporeMenu',
+        element: <ExporeMenu />
+      },
+
+
+
     ]
   }])
 
 function App() {
   return (
-    <div>
-      <RouterProvider router={router}></RouterProvider>
-     
-    </div>
+   
+      <div>
+        <RouterProvider router={router}></RouterProvider>
+      </div>
+    
   )
 }
 
