@@ -1,230 +1,79 @@
-export const pizzas = [
-    {
-        "name": "Margherita",
-        "image_url": "https://example.com/margherita.jpg",
-        "price": 8.99,
-        "rating": 4.5,
-        "description": "A classic Italian pizza with fresh tomatoes, mozzarella cheese, and basil leaves.",
-        "category": "pizza"
-    },
-    {
-        "name": "Pepperoni",
-        "image_url": "https://example.com/pepperoni.jpg",
-        "price": 10.99,
-        "rating": 4.7,
-        "description": "A popular pizza topped with spicy pepperoni slices and mozzarella cheese.",
-        "category": "pizza"
-    },
-    {
-        "name": "BBQ Chicken",
-        "image_url": "https://example.com/bbq_chicken.jpg",
-        "price": 12.99,
-        "rating": 4.6,
-        "description": "A delicious pizza topped with barbecue sauce, grilled chicken, red onions, and mozzarella cheese.",
-        "category": "pizza"
-    },
-    {
-        "name": "Vegetarian",
-        "image_url": "https://example.com/vegetarian.jpg",
-        "price": 11.49,
-        "rating": 4.4,
-        "description": "A healthy pizza loaded with fresh vegetables like bell peppers, onions, olives, and mushrooms.",
-        "category": "pizza"
-    },
-    {
-        "name": "Hawaiian",
-        "image_url": "https://example.com/hawaiian.jpg",
-        "price": 11.99,
-        "rating": 4.3,
-        "description": "A tropical pizza topped with ham, pineapple chunks, and mozzarella cheese.",
-        "category": "pizza"
-    },
-    {
-        "name": "Four Cheese",
-        "image_url": "https://example.com/four_cheese.jpg",
-        "price": 13.49,
-        "rating": 4.8,
-        "description": "A rich and creamy pizza topped with a blend of mozzarella, cheddar, parmesan, and gorgonzola cheeses.",
-        "category": "pizza"
-    },
-    {
-        "name": "Meat Lovers",
-        "image_url": "https://example.com/meat_lovers.jpg",
-        "price": 14.99,
-        "rating": 4.9,
-        "description": "A hearty pizza loaded with various meats like pepperoni, sausage, bacon, and ham.",
-        "category": "pizza"
-    },
-    {
-        "name": "Mushroom and Truffle",
-        "image_url": "https://example.com/mushroom_truffle.jpg",
-        "price": 15.99,
-        "rating": 4.7,
-        "description": "A gourmet pizza with a blend of mushrooms, truffle oil, and mozzarella cheese.",
-        "category": "pizza"
-    },
-    {
-        "name": "Buffalo Chicken",
-        "image_url": "https://example.com/buffalo_chicken.jpg",
-        "price": 13.99,
-        "rating": 4.6,
-        "description": "A spicy pizza topped with buffalo chicken, red onions, and blue cheese crumbles.",
-        "category": "pizza"
-    },
-    {
-        "name": "Spinach and Feta",
-        "image_url": "https://example.com/spinach_feta.jpg",
-        "price": 12.49,
-        "rating": 4.5,
-        "description": "A flavorful pizza with fresh spinach, feta cheese, tomatoes, and garlic.",
-        "category": "pizza"
-    }
-]
+
+
 export const soops = [
     {
         "name": "Tomato Basil Soup",
-        "image": "https://example.com/images/tomato-basil-soup.jpg",
+        "image_url": "https://example.com/images/tomato-basil-soup.jpg",
         "price": 4.99,
         "rating": 4.5,
         "description": "A creamy tomato soup blended with fresh basil, perfect for a warm comfort meal."
     },
     {
         "name": "Chicken Noodle Soup",
-        "image": "https://example.com/images/chicken-noodle-soup.jpg",
+        "image_url": "https://example.com/images/chicken-noodle-soup.jpg",
         "price": 5.99,
         "rating": 4.7,
         "description": "Classic chicken noodle soup made with tender chicken, fresh vegetables, and egg noodles."
     },
     {
         "name": "French Onion Soup",
-        "image": "https://example.com/images/french-onion-soup.jpg",
+        "image_url": "https://example.com/images/french-onion-soup.jpg",
         "price": 6.49,
         "rating": 4.8,
         "description": "A rich beef broth soup topped with caramelized onions and melted cheese on a toasted baguette slice."
     },
     {
         "name": "Minestrone Soup",
-        "image": "https://example.com/images/minestrone-soup.jpg",
+        "image_url": "https://example.com/images/minestrone-soup.jpg",
         "price": 5.49,
         "rating": 4.4,
         "description": "A hearty Italian soup filled with vegetables, beans, and pasta in a savory tomato broth."
     },
     {
         "name": "Clam Chowder",
-        "image": "https://example.com/images/clam-chowder.jpg",
+        "image_url": "https://example.com/images/clam-chowder.jpg",
         "price": 7.99,
         "rating": 4.6,
         "description": "Creamy clam chowder with tender clams, potatoes, and a hint of bacon."
     },
     {
         "name": "Butternut Squash Soup",
-        "image": "https://example.com/images/butternut-squash-soup.jpg",
+        "image_url": "https://example.com/images/butternut-squash-soup.jpg",
         "price": 5.29,
         "rating": 4.5,
         "description": "A smooth and creamy soup made from roasted butternut squash and a touch of cinnamon."
     },
     {
         "name": "Miso Soup",
-        "image": "https://example.com/images/miso-soup.jpg",
+        "image_url": "https://example.com/images/miso-soup.jpg",
         "price": 3.99,
         "rating": 4.3,
         "description": "Traditional Japanese miso soup with tofu, seaweed, and green onions."
     },
     {
         "name": "Lentil Soup",
-        "image": "https://example.com/images/lentil-soup.jpg",
+        "image_url": "https://example.com/images/lentil-soup.jpg",
         "price": 4.59,
         "rating": 4.4,
         "description": "A nutritious soup made with lentils, carrots, celery, and a blend of spices."
     },
     {
         "name": "Broccoli Cheddar Soup",
-        "image": "https://example.com/images/broccoli-cheddar-soup.jpg",
+        "image_url": "https://example.com/images/broccoli-cheddar-soup.jpg",
         "price": 6.79,
         "rating": 4.7,
         "description": "Creamy broccoli soup with cheddar cheese, perfect for a cozy meal."
     },
     {
         "name": "Spicy Thai Coconut Soup",
-        "image": "https://example.com/images/spicy-thai-coconut-soup.jpg",
+        "image_url": "https://example.com/images/spicy-thai-coconut-soup.jpg",
         "price": 6.99,
         "rating": 4.6,
         "description": "A flavorful Thai soup made with coconut milk, chicken, mushrooms, and a spicy kick."
     }
 ]
 
-export const cakes = [
-    {
-        "name": "Classic Chocolate Cake",
-        "image": "https://example.com/images/classic-chocolate-cake.jpg",
-        "price": 25.00,
-        "rating": 4.7,
-        "description": "A rich and moist chocolate cake topped with creamy chocolate frosting."
-    },
-    {
-        "name": "Red Velvet Cake",
-        "image": "https://example.com/images/red-velvet-cake.jpg",
-        "price": 30.00,
-        "rating": 4.8,
-        "description": "A vibrant red cake with a smooth cream cheese frosting, perfect for special occasions."
-    },
-    {
-        "name": "Carrot Cake",
-        "image": "https://example.com/images/carrot-cake.jpg",
-        "price": 28.00,
-        "rating": 4.6,
-        "description": "A moist and flavorful cake made with grated carrots, spices, and topped with cream cheese frosting."
-    },
-    {
-        "name": "Lemon Drizzle Cake",
-        "image": "https://example.com/images/lemon-drizzle-cake.jpg",
-        "price": 22.00,
-        "rating": 4.5,
-        "description": "A zesty lemon cake with a tangy glaze, perfect for a refreshing treat."
-    },
-    {
-        "name": "Strawberry Shortcake",
-        "image": "https://example.com/images/strawberry-shortcake.jpg",
-        "price": 26.00,
-        "rating": 4.7,
-        "description": "Light and fluffy cake layered with fresh strawberries and whipped cream."
-    },
-    {
-        "name": "Cheesecake",
-        "image": "https://example.com/images/cheesecake.jpg",
-        "price": 32.00,
-        "rating": 4.9,
-        "description": "A creamy and smooth cheesecake with a buttery graham cracker crust."
-    },
-    {
-        "name": "Black Forest Cake",
-        "image": "https://example.com/images/black-forest-cake.jpg",
-        "price": 29.00,
-        "rating": 4.8,
-        "description": "A decadent chocolate cake layered with cherries and whipped cream."
-    },
-    {
-        "name": "Vanilla Bean Cake",
-        "image": "https://example.com/images/vanilla-bean-cake.jpg",
-        "price": 24.00,
-        "rating": 4.6,
-        "description": "A classic vanilla cake with a delicate flavor and light frosting."
-    },
-    {
-        "name": "Coffee Cake",
-        "image": "https://example.com/images/coffee-cake.jpg",
-        "price": 23.00,
-        "rating": 4.5,
-        "description": "A soft and flavorful cake with a hint of coffee and a crumbly streusel topping."
-    },
-    {
-        "name": "Pumpkin Spice Cake",
-        "image": "https://example.com/images/pumpkin-spice-cake.jpg",
-        "price": 27.00,
-        "rating": 4.7,
-        "description": "A spiced pumpkin cake topped with cream cheese frosting, perfect for autumn."
-    }
-]
+
 
 export const rices = [
     {
@@ -455,49 +304,49 @@ export const idianDeserts = [
 export const streetFood = [
     {
         "name": "Pani Puri",
-        "image": "https://example.com/pani_puri.jpg",
+        "image_url": "https://example.com/pani_puri.jpg",
         "price": "₹30",
         "rating": "4.5",
         "description": "Crispy puris filled with spicy water, tamarind chutney, and potatoes."
     },
     {
         "name": "Chaat",
-        "image": "https://example.com/chaat.jpg",
+        "image_url": "https://example.com/chaat.jpg",
         "price": "₹40",
         "rating": "4.3",
         "description": "A mix of tangy and spicy ingredients with yogurt and chutneys."
     },
     {
         "name": "Vada Pav",
-        "image": "https://example.com/vada_pav.jpg",
+        "image_url": "https://example.com/vada_pav.jpg",
         "price": "₹25",
         "rating": "4.6",
         "description": "Spicy potato fritter served in a bun with chutneys."
     },
     {
         "name": "Samosa",
-        "image": "https://example.com/samosa.jpg",
+        "image_url": "https://example.com/samosa.jpg",
         "price": "₹20",
         "rating": "4.4",
         "description": "Crispy pastry filled with spiced potatoes and peas."
     },
     {
         "name": "Pav Bhaji",
-        "image": "https://example.com/pav_bhaji.jpg",
+        "image_url": "https://example.com/pav_bhaji.jpg",
         "price": "₹60",
         "rating": "4.5",
         "description": "Spicy mashed vegetable curry served with buttered pav."
     },
     {
         "name": "Dabeli",
-        "image": "https://example.com/dabeli.jpg",
+        "image_url": "https://example.com/dabeli.jpg",
         "price": "₹35",
         "rating": "4.2",
         "description": "Spicy potato mixture in a bun, topped with chutneys and pomegranate."
     },
     {
         "name": "Bhel Puri",
-        "image": "https://example.com/bhel_puri.jpg",
+        "image_url": "https://example.com/bhel_puri.jpg",
         "price": "₹40",
         "rating": "4.3",
         "description": "Puffed rice mixed with vegetables, chutneys, and spices."
@@ -505,21 +354,21 @@ export const streetFood = [
 
     {
         "name": "Kachori",
-        "image": "https://example.com/kachori.jpg",
+        "image_url": "https://example.com/kachori.jpg",
         "price": "₹25",
         "rating": "4.3",
         "description": "Spicy and crispy pastry stuffed with lentils or peas."
     },
     {
         "name": "Pakoda",
-        "image": "https://example.com/pakora.jpg",
+        "image_url": "https://example.com/pakora.jpg",
         "price": "₹50",
         "rating": "4.2",
         "description": "Vegetables or meat dipped in gram flour batter and deep-fried."
     },
     {
         "name": "Chana Chaat",
-        "image": "https://example.com/chana_chaat.jpg",
+        "image_url": "https://example.com/chana_chaat.jpg",
         "price": "₹45",
         "rating": "4.3",
         "description": "Spicy chickpea salad with onions, tomatoes, and chutneys."
@@ -530,7 +379,7 @@ export const streetFood = [
 export const rottis = [
     {
         "name": "Aloo Paratha",
-        "image": "https://example.com/aloo-paratha.jpg",
+        "image_url": "https://example.com/aloo-paratha.jpg",
         "price": "₹50",
         "rating": "4.5",
         "description": "A popular North Indian stuffed bread made with spiced mashed potatoes."
@@ -538,42 +387,42 @@ export const rottis = [
     },
     {
         "name": "Chappati",
-        "image": "https://example.com/chappati.jpg",
+        "image_url": "https://example.com/chappati.jpg",
         "price": "₹30",
         "rating": "4.0",
         "description": "A simple and unleavened flatbread, staple in Indian cuisine."
     },
     {
         "name": "Puri",
-        "image": "https://example.com/puri.jpg",
+        "image_url": "https://example.com/puri.jpg",
         "price": "₹40",
         "rating": "4.3",
         "description": "Deep-fried bread that puffs up and is commonly served with curries or vegetables."
     },
     {
         "name": "Missi Roti",
-        "image": "https://example.com/missi-roti.jpg",
+        "image_url": "https://example.com/missi-roti.jpg",
         "price": "₹55",
         "rating": "4.4",
         "description": "A spicy, whole wheat roti mixed with various spices and herbs."
     },
     {
         "name": "Makki Di Roti",
-        "image": "https://example.com/makki-di-roti.jpg",
+        "image_url": "https://example.com/makki-di-roti.jpg",
         "price": "₹60",
         "rating": "4.5",
         "description": "Cornmeal roti from Punjab, typically served with saag (mustard greens)."
     },
     {
         "name": "Tandoori Roti",
-        "image": "https://example.com/tandoori-roti.jpg",
+        "image_url": "https://example.com/tandoori-roti.jpg",
         "price": "₹55",
         "rating": "4.5",
         "description": "Whole wheat roti cooked in a tandoor (clay oven) for a unique taste and texture."
     },
     {
         "name": "Jowar Roti",
-        "image": "https://example.com/jowar-roti.jpg",
+        "image_url": "https://example.com/jowar-roti.jpg",
         "price": "₹55",
         "rating": "4.4",
         "description": "Roti made from sorghum flour, commonly eaten in Maharashtra."
@@ -581,14 +430,14 @@ export const rottis = [
     
     {
         "name": "Bhakri",
-        "image": "https://example.com/bhakri.jpg",
+        "image_url": "https://example.com/bhakri.jpg",
         "price": "₹50",
         "rating": "4.2",
         "description": "A round flatbread made from various grains, typically enjoyed with spicy sides."
     },
     {
         "name": "Bhature",
-        "image": "https://example.com/bhature.jpg",
+        "image_url": "https://example.com/bhature.jpg",
         "price": "₹65",
         "rating": "4.5",
         "description": "Leavened bread deep-fried to a puffed and golden perfection."
@@ -598,245 +447,245 @@ export const rottis = [
 export const driks = [
     {
         "name": "Masala Chai",
-        "image": "https://example.com/masala_chai.jpg",
+        "image_url": "https://example.com/masala_chai.jpg",
         "price": "₹30",
         "rating": 4.5,
         "description": "A spiced tea brewed with a blend of aromatic spices like cardamom, cloves, and cinnamon."
     },
     {
         "name": "Lassi",
-        "image": "https://example.com/lassi.jpg",
+        "image_url": "https://example.com/lassi.jpg",
         "price": "₹40",
         "rating": 4.7,
         "description": "A traditional yogurt-based drink that can be sweet or salty, often flavored with fruits or spices."
     },
     {
         "name": "Nimbu Pani",
-        "image": "https://example.com/nimbu_pani.jpg",
+        "image_url": "https://example.com/nimbu_pani.jpg",
         "price": "₹25",
         "rating": 4.3,
         "description": "A refreshing lemonade made with lemon juice, water, sugar, and a pinch of salt."
     },
     {
         "name": "Thandai",
-        "image": "https://example.com/thandai.jpg",
+        "image_url": "https://example.com/thandai.jpg",
         "price": "₹50",
         "rating": 4.6,
         "description": "A chilled drink made with milk, almonds, saffron, and a blend of spices, often enjoyed during festivals."
     },
     {
         "name": "Buttermilk (Chaas)",
-        "image": "https://example.com/buttermilk.jpg",
+        "image_url": "https://example.com/buttermilk.jpg",
         "price": "₹30",
         "rating": 4.2,
         "description": "A savory drink made by diluting yogurt with water and adding spices and herbs."
     },
     {
         "name": "Jaljeera",
-        "image": "https://example.com/jaljeera.jpg",
+        "image_url": "https://example.com/jaljeera.jpg",
         "price": "₹35",
         "rating": 4.4,
         "description": "A tangy drink made with cumin, black salt, and tamarind, known for its digestive benefits."
     },
     {
         "name": "Aam Panna",
-        "image": "https://example.com/aam_panna.jpg",
+        "image_url": "https://example.com/aam_panna.jpg",
         "price": "₹45",
         "rating": 4.5,
         "description": "A tangy and sweet drink made from raw mangoes, sugar, and spices."
     },
     {
         "name": "Rasgulla Sherbet",
-        "image": "https://example.com/rasgulla_sherbet.jpg",
+        "image_url": "https://example.com/rasgulla_sherbet.jpg",
         "price": "₹60",
         "rating": 4.8,
         "description": "A sweet and creamy drink made with rasgulla (sweetened paneer balls) soaked in flavored syrup."
     },
     {
         "name": "Coconut Water",
-        "image": "https://example.com/coconut_water.jpg",
+        "image_url": "https://example.com/coconut_water.jpg",
         "price": "₹50",
         "rating": 4.6,
         "description": "A natural and refreshing drink directly from the coconut, rich in electrolytes."
     },
     {
         "name": "Kokum Sharbat",
-        "image": "https://example.com/kokum_sharbat.jpg",
+        "image_url": "https://example.com/kokum_sharbat.jpg",
         "price": "₹40",
         "rating": 4.5,
         "description": "A sweet and tangy drink made from kokum fruit, known for its cooling properties."
     },
     {
         "name": "Sweet Lime Juice",
-        "image": "https://example.com/sweet_lime_juice.jpg",
+        "image_url": "https://example.com/sweet_lime_juice.jpg",
         "price": "₹35",
         "rating": 4.4,
         "description": "A refreshing juice made from sweet lime, often enjoyed chilled."
     },
     {
         "name": "Rose Milk",
-        "image": "https://example.com/rose_milk.jpg",
+        "image_url": "https://example.com/rose_milk.jpg",
         "price": "₹55",
         "rating": 4.7,
         "description": "A sweet and fragrant milk drink flavored with rose syrup and garnished with rose petals."
     },
     {
         "name": "Paneer Tikka Drink",
-        "image": "https://example.com/paneer_tikka_drink.jpg",
+        "image_url": "https://example.com/paneer_tikka_drink.jpg",
         "price": "₹65",
         "rating": 4.6,
         "description": "A unique drink made with flavors of paneer tikka, served chilled."
     },
     {
         "name": "Sattu Drink",
-        "image": "https://example.com/sattu_drink.jpg",
+        "image_url": "https://example.com/sattu_drink.jpg",
         "price": "₹40",
         "rating": 4.3,
         "description": "A nutritious drink made from roasted gram flour, water, and spices."
     },
     {
         "name": "Basil Seed Drink",
-        "image": "https://example.com/basil_seed_drink.jpg",
+        "image_url": "https://example.com/basil_seed_drink.jpg",
         "price": "₹55",
         "rating": 4.4,
         "description": "A refreshing drink made with basil seeds, known for its cooling effects."
     },
     {
         "name": "Ginger Lemon Tea",
-        "image": "https://example.com/ginger_lemon_tea.jpg",
+        "image_url": "https://example.com/ginger_lemon_tea.jpg",
         "price": "₹35",
         "rating": 4.5,
         "description": "A soothing tea with the zing of ginger and the freshness of lemon."
     },
     {
         "name": "Amla Juice",
-        "image": "https://example.com/amla_juice.jpg",
+        "image_url": "https://example.com/amla_juice.jpg",
         "price": "₹60",
         "rating": 4.6,
         "description": "A tangy and nutritious juice made from amla (Indian gooseberry)."
     },
     {
         "name": "Khus Sharbat",
-        "image": "https://example.com/khus_sharbat.jpg",
+        "image_url": "https://example.com/khus_sharbat.jpg",
         "price": "₹50",
         "rating": 4.5,
         "description": "A refreshing drink made from khus (vetiver) syrup, known for its cooling properties."
     },
     {
         "name": "Chaas (Spiced Buttermilk)",
-        "image": "https://example.com/chaas.jpg",
+        "image_url": "https://example.com/chaas.jpg",
         "price": "₹30",
         "rating": 4.4,
         "description": "A spiced version of buttermilk, often flavored with cumin, coriander, and mint."
     },
     {
         "name": "Peach Iced Tea",
-        "image": "https://example.com/peach_iced_tea.jpg",
+        "image_url": "https://example.com/peach_iced_tea.jpg",
         "price": "₹45",
         "rating": 4.7,
         "description": "A chilled tea with a hint of peach, served with ice."
     },
     {
         "name": "Saffron Milk",
-        "image": "https://example.com/saffron_milk.jpg",
+        "image_url": "https://example.com/saffron_milk.jpg",
         "price": "₹60",
         "rating": 4.8,
         "description": "A creamy milk drink flavored with saffron strands, known for its rich taste and aroma."
     },
     {
         "name": "Paan Shot",
-        "image": "https://example.com/paan_shot.jpg",
+        "image_url": "https://example.com/paan_shot.jpg",
         "price": "₹40",
         "rating": 4.5,
         "description": "A flavorful drink that captures the essence of betel leaf (paan), often served as a shot."
     },
     {
         "name": "Jaggery Lemonade",
-        "image": "https://example.com/jaggery_lemonade.jpg",
+        "image_url": "https://example.com/jaggery_lemonade.jpg",
         "price": "₹35",
         "rating": 4.4,
         "description": "A natural lemonade sweetened with jaggery instead of sugar, providing a unique taste."
     },
     {
         "name": "Almond Milk",
-        "image": "https://example.com/almond_milk.jpg",
+        "image_url": "https://example.com/almond_milk.jpg",
         "price": "₹50",
         "rating": 4.6,
         "description": "A dairy-free milk alternative made from blended almonds, known for its nutty flavor."
     },
     {
         "name": "Date Shake",
-        "image": "https://example.com/date_shake.jpg",
+        "image_url": "https://example.com/date_shake.jpg",
         "price": "₹55",
         "rating": 4.5,
         "description": "A creamy shake made with dates and milk, often enhanced with a touch of vanilla."
     },
     {
         "name": "Pineapple Juice",
-        "image": "https://example.com/pineapple_juice.jpg",
+        "image_url": "https://example.com/pineapple_juice.jpg",
         "price": "₹45",
         "rating": 4.3,
         "description": "A sweet and tangy juice made from fresh pineapples, served chilled."
     },
     {
         "name": "Turmeric Milk (Haldi Doodh)",
-        "image": "https://example.com/turmeric_milk.jpg",
+        "image_url": "https://example.com/turmeric_milk.jpg",
         "price": "₹50",
         "rating": 4.6,
         "description": "A warm milk drink flavored with turmeric, known for its anti-inflammatory benefits."
     },
     {
         "name": "Ginger Ale",
-        "image": "https://example.com/ginger_ale.jpg",
+        "image_url": "https://example.com/ginger_ale.jpg",
         "price": "₹45",
         "rating": 4.4,
         "description": "A carbonated drink with a spicy ginger flavor, often enjoyed as a refreshing beverage."
     },
     {
         "name": "Sweet Rose Milk",
-        "image": "https://example.com/sweet_rose_milk.jpg",
+        "image_url": "https://example.com/sweet_rose_milk.jpg",
         "price": "₹55",
         "rating": 4.7,
         "description": "A milk drink sweetened with rose syrup, offering a delightful floral flavor."
     },
     {
         "name": "Orange Juice",
-        "image": "https://example.com/orange_juice.jpg",
+        "image_url": "https://example.com/orange_juice.jpg",
         "price": "₹40",
         "rating": 4.3,
         "description": "A fresh and tangy juice made from ripe oranges."
     },
     {
         "name": "Apple Cider Vinegar Drink",
-        "image": "https://example.com/apple_cider_vinegar_drink.jpg",
+        "image_url": "https://example.com/apple_cider_vinegar_drink.jpg",
         "price": "₹50",
         "rating": 4.5,
         "description": "A drink made by diluting apple cider vinegar with water and honey, known for its health benefits."
     },
     {
         "name": "Mango Smoothie",
-        "image": "https://example.com/mango_smoothie.jpg",
+        "image_url": "https://example.com/mango_smoothie.jpg",
         "price": "₹60",
         "rating": 4.7,
         "description": "A creamy smoothie made with ripe mangoes and yogurt, blended to perfection."
     },
     {
         "name": "Rosewater Lemonade",
-        "image": "https://example.com/rosewater_lemonade.jpg",
+        "image_url": "https://example.com/rosewater_lemonade.jpg",
         "price": "₹45",
         "rating": 4.6,
         "description": "A refreshing lemonade enhanced with a hint of rosewater for a floral twist."
     },
     {
         "name": "Tamarind Drink",
-        "image": "https://example.com/tamarind_drink.jpg",
+        "image_url": "https://example.com/tamarind_drink.jpg",
         "price": "₹35",
         "rating": 4.4,
         "description": "A tangy drink made from tamarind, sugar, and spices, often enjoyed chilled."
     },
     {
         "name": "Mango Lassi",
-        "image": "https://example.com/mango_lassi.jpg",
+        "image_url": "https://example.com/mango_lassi.jpg",
         "price": "₹50",
         "rating": 4.7,
         "description": "A fruity variation of lassi, made with mangoes and yogurt for a sweet and creamy taste."
