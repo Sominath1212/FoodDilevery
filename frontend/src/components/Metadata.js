@@ -67,7 +67,7 @@ export const categories = [
     },
     {
         image: streetFoodImage,
-        Title: "Streetfood "
+        Title: "Streetfoods "
     },
 ];
 

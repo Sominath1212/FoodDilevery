@@ -20,7 +20,7 @@ function LandingPage() {
                 <pre className='px-3 text-center'> <h1 className='flex animate-pulse transition-all duration-700 items-start  font-bold font-serif text-center sm:text-4xl'>Are you hungry ? your food <ImSpoonKnife className='text-green-500' />  is here.</h1></pre>
 
                 <p className='sm:text-xl text-center text-gray-400 mt-4' >"One cannot think well, love well, sleep well, if one has not dined well."</p>
-                <button className='bg-green-500 rounded-xl text-lg  px-2 py-1 mt-5 font-bold  shadow-lg shadow-green-300'>Get started</button>
+                <Link to="/ExporeMenu"><button className='bg-green-500 rounded-xl text-lg  px-2 py-1 mt-5 font-bold  shadow-lg shadow-green-300'>Get started</button></Link>  
             </div>
 
             {/* adding a explore menu options */}
