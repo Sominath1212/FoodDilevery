@@ -8,6 +8,7 @@ import Layout from './components/Layout';
 import Cart from './components/Cart';
 import ExporeMenu from './components/ExporeMenu';
 import StoreContextProvider from './context/StoreContex';
+import ContactUs from './components/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/loginpage',
         element: <LoginPage />
+      },
+      {
+        path: '/contactus',
+        element: <ContactUs />
       },
       {
         path: '/cart',

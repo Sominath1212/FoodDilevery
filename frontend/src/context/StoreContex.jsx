@@ -31,7 +31,7 @@ const removeFromCart=(id)=>{
 
 
     useEffect(() => {
-        console.log(cartItems);
+        console.log("this is your selected products",cartItems);
     }, [cartItems])
     return(
         <StoreContext.Provider value={contextvalue}>

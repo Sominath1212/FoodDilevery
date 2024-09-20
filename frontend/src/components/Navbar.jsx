@@ -12,6 +12,8 @@ import { TfiEmail } from "react-icons/tfi";
 function Navbar() {
     const [isActive, setisActive] = useState("home");
     const [toggle, setToggle] = useState(false);
+
+    const [showinput, setShowInput] = useState(false)
     return (
         <>
             <div className='z-10 bg-gray-600 px-2  fixed w-full   sm:px-4 text-white top-0 shadow-sm right-0 left-0 flex items-center justify-between'>
@@ -24,11 +26,20 @@ function Navbar() {
                 <ul className='sm:flex hidden sm:space-x-4 items-center justify-center '>
                     <Link to='/'>    <li onClick={() => setisActive("home")} className={`${isActive == "home" ? 'border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500 `}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Home</button></li></Link>
                     <Link to='ExporeMenu'> <li onClick={() => setisActive("menu")} className={`${isActive == "menu" ? ' border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Menu</button></li></Link>
-                    <li onClick={() => setisActive("contacts")} className={`${isActive == "contacts" ? '  border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Contact us</button></li>
+                    <Link to='/contactus'>  <li onClick={() => setisActive("contacts")} className={`${isActive == "contacts" ? '  border-x-0 border-t-0 border-2 border-green-500 border-b-2' : ""}hover:border-b-2 hover:border-green-500`}><button className=' text-sm  hover:scale-105  outline-none  px-2 py-0.5 rounded-lg'>Contact us</button></li></Link>
                 </ul>
                 {/* icon */}
                 <div className='flex items-center justify-center space-x-2 '>
-                    <FiSearch className='cursor-pointer text-xl ' />
+                    <div className={`flex items-center ${showinput ?'border rounded-lg':""}
+                    
+                    `}>
+                        {
+                            showinput ?
+                                <input type="search" className='rounded-l-lg outline-none text-center placeholder:text-black' placeholder='search' /> : ""
+                        }
+
+                        <FiSearch className='cursor-pointer text-xl ' onClick={() => setShowInput(!showinput)} />
+                    </div>
 
                     <Link to='/cart'><BsBagCheck className='cursor-pointer text-xl ' /></Link>
 

@@ -1,7 +1,5 @@
 import CakeImage from '../assets/images/cake.png'
-import SandWitchImage from '../assets/images/sandwitch.png'
 import SoupImage from '../assets/images/soup.png'
-import RotiImsge from '../assets/images/rotis.png'
 import PizzaImage from '../assets/images/Pepperoni.jpeg'
 import MargheritaImage from '../assets/images/Margherita.jpeg'
 import PepperoniImage from '../assets/images/Pepperoni.jpeg'
@@ -47,27 +45,21 @@ import chanaChatImage from '../assets/images/chana_chat.jpeg'
 export const categories = [
     {
         image: CakeImage,
-        Title: "Cakes"
+        Title: "cake"
     },
-    {
-        image: SandWitchImage,
-        Title: "Sandwitches"
-    },
+    
     {
         image: SoupImage,
-        Title: "Soups"
+        Title: "soup"
     },
-    {
-        image: RotiImsge,
-        Title: "Rotis"
-    },
+    
     {
         image: PizzaImage,
-        Title: "Pizzas"
+        Title: "pizza"
     },
     {
         image: streetFoodImage,
-        Title: "Streetfoods "
+        Title: "streetfood"
     },
 ];
 
@@ -345,7 +337,7 @@ export const foodList = [
     {
         "name": "Pani Puri",
         "image_url": PanipuriImage,
-        "price": "₹30",
+        "price": 30,
         "rating": "4.5",
         "description": "Crispy puris filled with spicy water, tamarind chutney, and potatoes.",
         "category": "streetfood",
@@ -354,7 +346,7 @@ export const foodList = [
     {
         "name": "Chaat",
         "image_url": ChaatImage,
-        "price": "₹40",
+        "price": 40,
         "rating": "4.3",
         "description": "A mix of tangy and spicy ingredients with yogurt and chutneys.",
         "category": "streetfood",
@@ -363,7 +355,7 @@ export const foodList = [
     {
         "name": "Vada Pav",
         "image_url": VadapavImage,
-        "price": "₹25",
+        "price": 25,
         "rating": "4.6",
         "description": "Spicy potato fritter served in a bun with chutneys.",
         "category": "streetfood",
@@ -372,7 +364,7 @@ export const foodList = [
     {
         "name": "Samosa",
         "image_url": samosaImage,
-        "price": "₹20",
+        "price": 20,
         "rating": "4.4",
         "description": "Crispy pastry filled with spiced potatoes and peas.",
         "category": "streetfood",
@@ -381,7 +373,7 @@ export const foodList = [
     {
         "name": "Pav Bhaji",
         "image_url": pavBhajiImage,
-        "price": "₹60",
+        "price": 60,
         "rating": "4.5",
         "description": "Spicy mashed vegetable curry served with buttered pav.",
         "category": "streetfood",
@@ -390,7 +382,7 @@ export const foodList = [
     {
         "name": "Dabeli",
         "image_url": dabeliImage,
-        "price": "₹35",
+        "price": 35,
         "rating": "4.2",
         "description": "Spicy potato mixture in a bun, topped with chutneys and pomegranate.",
         "category": "streetfood",
@@ -399,7 +391,7 @@ export const foodList = [
     {
         "name": "Bhel Puri",
         "image_url": bhelPuriImage,
-        "price": "₹40",
+        "price": 40,
         "rating": "4.3",
         "description": "Puffed rice mixed with vegetables, chutneys, and spices.",
         "category": "streetfood",
@@ -408,7 +400,7 @@ export const foodList = [
     {
         "name": "Kachori",
         "image_url": kachoriimage,
-        "price": "₹25",
+        "price":25,
         "rating": "4.3",
         "description": "Spicy and crispy pastry stuffed with lentils or peas.",
         "category": "streetfood",
@@ -417,7 +409,7 @@ export const foodList = [
     {
         "name": "Pakoda",
         "image_url": pakodaImage,
-        "price": "₹50",
+        "price": 50,
         "rating": "4.2",
         "description": "Vegetables or meat dipped in gram flour batter and deep-fried.",
         "category": "streetfood",
@@ -426,7 +418,7 @@ export const foodList = [
     {
         "name": "Chana Chaat",
         "image_url": chanaChatImage,
-        "price": "₹45",
+        "price": 45,
         "rating": "4.3",
         "description": "Spicy chickpea salad with onions, tomatoes, and chutneys.",
         "category": "streetfood",

@@ -8,24 +8,24 @@ import { FcGoogle } from 'react-icons/fc'
 import { TfiEmail } from 'react-icons/tfi'
 function Footer() {
     return (
-        <div className=' w-full  pt-4 sm:px-4 px-2 shadow-lg bg-gray-600'>
+        <div className='bottom-0 relative  w-full  pt-4 sm:px-4 px-2 shadow-lg bg-gray-600'>
 
             <div className='flex text-white items-center justify-center space-x-10 '>
 
                 <div>
-                    <h1 style={{ fontFamily: "Montserrat" }} className='flex  items-center justify-center'><span className='text-green-500 font-bold text-3xl '>Food</span><span className='underline font-bold italic mx-1 '>store</span><span><ImSpoonKnife className='text-green-500' /></span></h1>
+                    <h1 style={{ fontFamily: "Montserrat" }} className='flex cursor-pointer items-center justify-center'><span className='text-green-500 font-bold text-3xl '>Food</span><span className='underline font-bold italic mx-1 '>store</span><span><ImSpoonKnife className='text-green-500' /></span></h1>
 
                 </div>
                 <div className='sm:flex my-1 items-center'>
-                    <img src={playStore} alt="" className='w-[100px]' />
-                    <img src={AppleStore} alt="" className='w-[100px]' />
+                    <img src={playStore} alt="" className='cursor-pointer w-[100px]' />
+                    <img src={AppleStore} alt="" className='cursor-pointer w-[100px]' />
                 </div>
             </div>
             <div className='space-x-3 mt-3 flex  items-center justify-center '>
-                <FaFacebook className='shadow-xl  text-blue-700' size={20} />
-                <PiInstagramLogoLight className=' rounded-sm bg-gradient-to-r from-purple-500 from-10% via-red-500 via-30% to-yellow-500 to-90%' />
-                <FcGoogle size={20} />
-                <TfiEmail size={20} className='text-white' />
+                <FaFacebook className='shadow-xl cursor-pointer  text-blue-700' size={20} />
+                <PiInstagramLogoLight className=' cursor-pointer rounded-sm bg-gradient-to-r from-purple-500 from-10% via-red-500 via-30% to-yellow-500 to-90%' />
+                <FcGoogle size={20} className='cursor-pointer' />
+                <TfiEmail size={20} className='text-white cursor-pointer' />
             </div>
             <div className='my-3'>
           <hr />
